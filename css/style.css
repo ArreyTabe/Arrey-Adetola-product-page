@@ -1,0 +1,35 @@
+I want to ask that do we have to put Media query after the original css style?
+
+if i put media query before original style, it does not work.
+
+media screen and (max-width: 760px){
+    #logo_bar img#logo_image {
+        display: block;
+        margin: 5px auto 0px auto;
+        background-color: #c0c0c0;
+        float: none;
+    }
+
+    #logo_bar form.search_wrapper{
+        width: 65%;
+        margin: 15px auto 0px auto;
+        padding: 0px 0px 0px 0px;
+        float: none;
+    }
+}
+
+#logo_bar img#logo_image {
+    width: 218px;
+    height: 78px;
+    margin-top: 33px;
+    background-color: #c0c0c0;
+    float: left;
+}
+
+#logo_bar form.search_wrapper{
+    width: 55%;
+    height: 30px;
+    margin-top: 58px;
+    float: right;
+    padding: 0px 0px 0px 0px;
+}
